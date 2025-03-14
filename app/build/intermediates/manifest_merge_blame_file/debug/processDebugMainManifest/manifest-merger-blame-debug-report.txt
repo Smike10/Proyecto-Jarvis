@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tu.paquete"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permisos necesarios -->
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:5:5-70
+12-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:6:5-66
+13-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:7:5-80
+14-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:8:5-79
+15-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:8:22-77
+16
+17    <application
+17-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:10:5-26:19
+18        android:allowBackup="true"
+18-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:11:9-35
+19        android:debuggable="true"
+20        android:extractNativeLibs="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:12:9-43
+22        android:label="Mi Asistente de Voz"
+22-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:13:9-44
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:15:9-35
+25        android:theme="@style/Theme.MiAsistenteVoz" >
+25-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:16:9-52
+26
+27        <!-- Actividad principal -->
+28        <activity
+28-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:19:9-24:20
+29            android:name="com.tu.paquete.MainActivity"
+29-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:19:19-47
+30            android:exported="true" >
+30-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:19:48-71
+31            <intent-filter>
+31-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:20:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:21:17-69
+32-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:21:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:22:17-77
+34-->/data/data/com.termux/files/home/MiAsistenteVoz/app/src/main/AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
